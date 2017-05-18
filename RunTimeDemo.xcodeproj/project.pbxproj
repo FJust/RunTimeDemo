@@ -15,6 +15,8 @@
 		AF6ABDFF1ECB39BF007ED839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6ABDFD1ECB39BF007ED839 /* LaunchScreen.storyboard */; };
 		AF6ABE0A1ECB39BF007ED839 /* RunTimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6ABE091ECB39BF007ED839 /* RunTimeDemoTests.m */; };
 		AF6ABE151ECB39BF007ED839 /* RunTimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6ABE141ECB39BF007ED839 /* RunTimeDemoUITests.m */; };
+		AF6ABE241ECB39E0007ED839 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6ABE231ECB39E0007ED839 /* TestViewController.m */; };
+		AFD69F861ECD3AF400FD7BCB /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD69F851ECD3AF400FD7BCB /* NSObject+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		AF6ABE101ECB39BF007ED839 /* RunTimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6ABE141ECB39BF007ED839 /* RunTimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeDemoUITests.m; sourceTree = "<group>"; };
 		AF6ABE161ECB39BF007ED839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6ABE221ECB39E0007ED839 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		AF6ABE231ECB39E0007ED839 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		AFD69F841ECD3AF400FD7BCB /* NSObject+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		AFD69F851ECD3AF400FD7BCB /* NSObject+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				AF6ABDFD1ECB39BF007ED839 /* LaunchScreen.storyboard */,
 				AF6ABE001ECB39BF007ED839 /* Info.plist */,
 				AF6ABDEF1ECB39BF007ED839 /* Supporting Files */,
+				AF6ABE221ECB39E0007ED839 /* TestViewController.h */,
+				AF6ABE231ECB39E0007ED839 /* TestViewController.m */,
+				AFD69F841ECD3AF400FD7BCB /* NSObject+Test.h */,
+				AFD69F851ECD3AF400FD7BCB /* NSObject+Test.m */,
 			);
 			path = RunTimeDemo;
 			sourceTree = "<group>";
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD69F861ECD3AF400FD7BCB /* NSObject+Test.m in Sources */,
 				AF6ABDF71ECB39BF007ED839 /* ViewController.m in Sources */,
 				AF6ABDF41ECB39BF007ED839 /* AppDelegate.m in Sources */,
+				AF6ABE241ECB39E0007ED839 /* TestViewController.m in Sources */,
 				AF6ABDF11ECB39BF007ED839 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +519,7 @@
 				AF6ABE1B1ECB39BF007ED839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF6ABE1C1ECB39BF007ED839 /* Build configuration list for PBXNativeTarget "RunTimeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				AF6ABE1E1ECB39BF007ED839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF6ABE1F1ECB39BF007ED839 /* Build configuration list for PBXNativeTarget "RunTimeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				AF6ABE211ECB39BF007ED839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

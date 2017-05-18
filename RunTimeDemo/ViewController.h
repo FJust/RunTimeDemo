@@ -13,3 +13,14 @@
 
 @end
 
+
+@interface ClassCustomClass :NSObject{
+    __unsafe_unretained NSString *varTest1;
+    __unsafe_unretained NSString *varTest2;
+    __unsafe_unretained NSString *varTest3;
+}
+@property (nonatomic,assign)NSString *varTest1;
+@property (nonatomic,assign)NSString *varTest2;
+@property (nonatomic,assign)NSString *varTest3;
+- (void) fun1;
+@end
